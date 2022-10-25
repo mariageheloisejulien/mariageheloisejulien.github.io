@@ -10,8 +10,38 @@ body {
     color: #FFFFFF;
 }
 
+#wrapper {
+    margin: 3% 10% 1% 10%;
+    padding: 1% 10% 1% 10%;
+}
+
+#col1 {
+    display:inline-block;
+    /*float:left;*/
+    width: 33%;
+    margin: 0% 0% 1% 0%;
+}
+
+#col2 {
+    display:inline-block;
+    /*float: left;*/
+    width: 33%;
+    margin: 0% 0% 1% 0%;
+    text-align:center;
+}
+
+#col3 {
+    display:inline-block;
+    /*float: left;*/
+    width: 33%;
+    margin: 0% 0% 1% 0%;
+}
+
 h3 {
     font-family: monospace;
+    font-size: 200%;
+    color: #FCCE1C;
+    text-decoration: underline;
 }
 
 h2 {
@@ -28,6 +58,6 @@ h1 {
     font-size: 500%;
 }
 
-p {
-    
+h4 {
+   text-align: center; 
 }
