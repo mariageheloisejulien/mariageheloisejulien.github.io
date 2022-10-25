@@ -1,0 +1,20 @@
+body {
+    background-color:#EEEEEE;
+}
+
+#wrapper {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 1% 10% 1% 10%;
+    box-shadow: 5px 5px 5px grey;
+    padding: 1% 10% 1% 10%;
+}
+
+h3 {
+    font-family: monospace;
+}
+
+h2 {
+    text-indent: 40px;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
