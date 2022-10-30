@@ -18,6 +18,10 @@ body {
     box-shadow: 5px 5px 5px grey;
     padding: 1% 10% 1% 10%;
     color: #FFFFFF;
+    background-image: url(../images/ble1.png), url(../images/vigne1.png);
+    background-size: 30% 30%, 30% 30%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right top;
 }
 
 #programme {
@@ -29,6 +33,14 @@ body {
 }
 
 #liens {
+    background: none repeat scroll 0 0 #98d772;
+    margin: 1% 10% 1% 10%;
+    box-shadow: 5px 5px 5px grey;
+    padding: 1% 10% 1% 10%;
+    color: #FFFFFF;
+}
+
+#souvenirs {
     background: none repeat scroll 0 0 #98d772;
     margin: 1% 10% 1% 10%;
     box-shadow: 5px 5px 5px grey;
@@ -59,14 +71,14 @@ body {
 #col1 {
     display:inline-block;
     /*float:left;*/
-    width: 33%;
+    width: 32%;
     margin: 0% 0% 1% 0%;
 }
 
 #col2 {
     display:inline-block;
     /*float: left;*/
-    width: 33%;
+    width: 32%;
     margin: 0% 0% 1% 0%;
     text-align:center;
 }
@@ -74,7 +86,7 @@ body {
 #col3 {
     display:inline-block;
     /*float: left;*/
-    width: 33%;
+    width: 32%;
     margin: 0% 0% 1% 0%;
 }
 
@@ -102,6 +114,19 @@ h4 {
    text-align: center; 
 }
 
+
+/*a:link {
+    color: gold;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: blue;
+}*/
+
 nav ul {
     list-style-type: none;
 }
@@ -110,6 +135,7 @@ nav li {
     float: left;
     text-align: center;
     width: 20%;
+    text-shadow: 1px 2px 2px #FFFFFF;
 }
 
 nav ul::after{
