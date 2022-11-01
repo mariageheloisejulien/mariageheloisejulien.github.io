@@ -8,45 +8,24 @@
 }
 
 body {
-    background-color:#93d38f;
+    background-color:#fffef0;
     font-family: 'snellregular';
     font-size: 150%
 }
 
-#title {
-    background: none repeat scroll 0 0 #5dbb63;
+.boite {
+    background: none repeat scroll 0 0 #5dbd69;
     margin: 1% 10% 1% 10%;
     box-shadow: 5px 5px 5px grey;
     padding: 1% 10% 1% 10%;
     color: #FFFFFF;
+}
+
+#title {
     background-image: url(../images/ble1.png), url(../images/vigne1.png);
     background-size: 30% 30%, 30% 30%;
     background-repeat: no-repeat, no-repeat;
     background-position: left top, right top;
-}
-
-#programme {
-    background: none repeat scroll 0 0 #5dbb63;
-    margin: 1% 10% 1% 10%;
-    box-shadow: 5px 5px 5px grey;
-    padding: 1% 10% 1% 10%;
-    color: #FFFFFF;
-}
-
-#liens {
-    background: none repeat scroll 0 0 #5dbb63;
-    margin: 1% 10% 1% 10%;
-    box-shadow: 5px 5px 5px grey;
-    padding: 1% 10% 1% 10%;
-    color: #FFFFFF;
-}
-
-#souvenirs {
-    background: none repeat scroll 0 0 #5dbb63;
-    margin: 1% 10% 1% 10%;
-    box-shadow: 5px 5px 5px grey;
-    padding: 1% 10% 1% 10%;
-    color: #FFFFFF;
 }
 
 #wrapper {
@@ -59,7 +38,7 @@ body {
     padding: 1% 10% 1% 10%;
 }
 
-#orga {
+#programme {
     margin: 3% 10% 1% 10%;
     padding: 1% 10% 1% 10%;
 }
@@ -93,14 +72,18 @@ body {
 
 h3 {
     font-size: 133%;
-    color: #FCCE1C;
+    color: #449164;
     text-decoration: underline;
+}
+
+.boite h3 {
+    color: gold;
 }
 
 h2 {
     font-variant: small-caps;
     text-align: center;
-    color:#FCCE1C;
+    color:gold;
     font-size: 200%;
     text-shadow: 1px 2px 2px #AAAAAA;
 }
@@ -210,8 +193,8 @@ a:hover {
 .info {
   display: inline-block;
   flex-direction: column;
-  background: #93d38f;
-  color: black;
+  background: #449164;
+  color: d7ffe4;
   border-radius: 10px;
   padding: 10px;
 }
@@ -260,7 +243,7 @@ nav li {
     float: left;
     text-align: center;
     width: 20%;
-    text-shadow: 1px 2px 2px #FFFFFF;
+    text-shadow: 1px 2px 2px #CCCCCC;
 }
 
 nav ul::after{
@@ -279,17 +262,17 @@ nav {
 nav a{
     display:block;
     text-decoration:none;
-    color: white;
+    color: #449164;
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
 }
 
 nav a:link{
-    color:white;
+    color:#449164;
 }
 
 nav a:visited{
-    color:white;
+    color:#449164;
 }
 
 nav a:hover{
