@@ -48,14 +48,14 @@ body {
     padding: 1% 10% 1% 10%;
 }
 
-#col1 {
+.col1 {
     display:inline-block;
     /*float:left;*/
     width: 32%;
     margin: 0% 0% 1% 0%;
 }
 
-#col2 {
+.col2 {
     display:inline-block;
     /*float: left;*/
     width: 32%;
@@ -63,7 +63,7 @@ body {
     text-align:center;
 }
 
-#col3 {
+.col3 {
     display:inline-block;
     /*float: left;*/
     width: 32%;
@@ -217,7 +217,7 @@ a:hover {
 }
 
 /* text right if the card is even  */
-.card:nth-child(even) > .info > .title {
+.card:nth-child(even) > .info {
   text-align: right;
 }
 
