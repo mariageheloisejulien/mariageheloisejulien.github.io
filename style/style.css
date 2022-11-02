@@ -23,7 +23,7 @@ body {
 
 #title {
     background-image: url(../images/ble1.png), url(../images/vigne1.png);
-    background-size: 30% 30%, 30% 30%;
+    background-size: 30% auto, 30% auto;
     background-repeat: no-repeat, no-repeat;
     background-position: left top, right top;
 }
