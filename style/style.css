@@ -17,7 +17,7 @@ body {
     background: none repeat scroll 0 0 #5dbd69;
     margin: 1% 10% 1% 10%;
     box-shadow: 5px 5px 5px grey;
-    padding: 1% 10% 1% 10%;
+    padding: 1% 7% 1% 7%;
     color: #FFFFFF;
 }
 
@@ -30,22 +30,22 @@ body {
 
 #wrapper {
     margin: 3% 10% 1% 10%;
-    padding: 1% 10% 1% 10%;
+    padding: 1% 7% 1% 7%;
 }
 
 #apropos {
     margin: 3% 10% 1% 10%;
-    padding: 1% 10% 1% 10%;
+    padding: 1% 7% 1% 7%;
 }
 
 #programme {
     margin: 3% 10% 1% 10%;
-    padding: 1% 10% 1% 10%;
+    padding: 1% 7% 1% 7%;
 }
 
 #contact {
     margin: 3% 10% 1% 10%;
-    padding: 1% 10% 1% 10%;
+    padding: 1% 7% 1% 7%;
 }
 
 .col13 {
